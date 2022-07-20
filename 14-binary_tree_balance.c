@@ -57,7 +57,7 @@ int binary_tree_balance(const binary_tree_t *tree)
 		if (tree->left != NULL)
 		{
 			height_l = binary_tree_height(tree->left);
-			return (height - height_l);
+			return (height_l - height);
 		}
 		else
 		{
